@@ -13,7 +13,6 @@ Sayaka Hoshi
 <div id="app">
   {{ message }}
 </div>
-(html)
 ```
 ```
 var app = new Vue({
@@ -23,7 +22,6 @@ var app = new Vue({
   }
 })
 ```
-(output)
 ```
 >> Hello Vue!
 ```
@@ -33,12 +31,10 @@ var app = new Vue({
 
 - Vue.js doing a lot of work in inner
 - Data and DOM are related and they are reactive
-For example>>
-(on console)
+For example  >>
 ```
 app.message = "Nice to meet you!"
 ```
-(output)
 ```
 >> Nice to meet you!
 ```
