@@ -2,6 +2,7 @@
 
 2019.5.13
 Sayaka Hoshi
+https://gitpitch.com/Yasaka-H/ForLab-VueJS
 
 ---
 
@@ -9,7 +10,7 @@ Sayaka Hoshi
 
 - Vue.js is a one of the JavaScript FrameWork 
 - Using a simple templete and draw data in DOM       
-```
+```html:imdex
 <div id="app">
   {{ message }}
 </div>
@@ -30,8 +31,8 @@ var app = new Vue({
 ---
 
 - Vue.js doing a lot of work in inner
-- Data and DOM are related and they are reactive
-For example  >>
+- Data and DOM are related and they are reactive      
+For example (on console):
 ```
 app.message = "Nice to meet you!"
 ```
@@ -41,6 +42,6 @@ app.message = "Nice to meet you!"
 
 ---
 
-opne url: https://gitpitch.com/Yasaka-H/ForLab-VueJS
+### Let's check 
 
 ---
