@@ -23,7 +23,8 @@ var app = new Vue({
   }
 })
 ```
-! What is happening in this code?
+What is happening in this code? |
+
 ---
 
 opne url: https://gitpitch.com/Yasaka-H/ForLab-VueJS
