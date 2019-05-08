@@ -26,6 +26,7 @@ var app = new Vue({
 
 ---
 
+opne url: https://gitpitch.com/Yasaka-H/ForLab-VueJS
 
 
-
+---
