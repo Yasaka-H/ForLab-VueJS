@@ -8,7 +8,7 @@ Sayaka Hoshi
 ### What is Vue.js?
 
 - Vue.js is a one of the JavaScript FrameWork 
-- Using a simple templete and draw data in DOM 
+- Using a simple templete and draw data in DOM       
 (html)
 ```
 <div id="app">
