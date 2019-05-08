@@ -7,15 +7,16 @@ Sayaka Hoshi
 
 ### What is Vue.js?
 
-- Vue.js is a one of the JavaScript FrameWork
-- Using a simple templete and draw data in DOM
-
-```html
+- Vue.js is a one of the JavaScript FrameWork 
+- Using a simple templete and draw data in DOM 
+(html)
+```
 <div id="app">
   {{ message }}
 </div>
 ```
-```js
+(js)
+```
 var app = new Vue({
   el: '#app',
   data: {
@@ -23,7 +24,25 @@ var app = new Vue({
   }
 })
 ```
-What is happening in this code? |
+(output)
+```
+>> Hello Vue!
+```
+- What is happening in this code? 
+
+---
+
+- Vue.js doing a lot of work in inner
+- Data and DOM are related and they are reactive
+For example>>
+(on console)
+```
+app.message = "Nice to meet you!"
+```
+(output)
+```
+>> Nice to meet you!
+```
 
 ---
 
