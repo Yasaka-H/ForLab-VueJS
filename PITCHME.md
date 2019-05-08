@@ -10,12 +10,12 @@ Sayaka Hoshi
 - Vue.js is a one of the JavaScript FrameWork
 - Using a simple templete and draw data in DOM
 
-```
+```html
 <div id="app">
   {{ message }}
 </div>
 ```
-```
+```js
 var app = new Vue({
   el: '#app',
   data: {
