@@ -10,7 +10,7 @@ https://gitpitch.com/Yasaka-H/ForLab-VueJS
 
 - Vue.js is a one of the JavaScript FrameWork 
 - Using a simple templete and draw data in DOM       
-```html:imdex
+```
 <div id="app">
   {{ message }}
 </div>
@@ -42,6 +42,6 @@ app.message = "Nice to meet you!"
 
 ---
 
-### Let's check 
+### Let's check My work
 
 ---
