@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Load JSON Demo with vue.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+<div id="app">
+    <input type="file" v-on:change="onFileChange">
+    <p>Loaded data >> {{ loadData }}</p>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            loadData: ''
+        },
+        methods: {
+            // When the file chose, onFileChange is executed
+            // loaded data into loadData >> display with mustache
+            onFileChange: function(e) {
+                let file = e.target.files[0]
+                if(file) {
+                    let reader = new FileReader()
+                    let vm = this;
+                    reader.onload = function(e) {
+                        json = JSON.parse(e.target.result);
+                        vm.loadData = json;
+                    }
+                    reader.readAsText(file)
+                }
+            }
+        }
+    })
+</script>
+
+</body>
+</html>
